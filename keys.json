@@ -1,0 +1,6 @@
+{
+  "layout:t3-tools": {
+    "cmd-shift-b": "t3-chrome.sidebar",
+    "cmd-shift-a": "t3-tools-tabs.view"
+  }
+}
