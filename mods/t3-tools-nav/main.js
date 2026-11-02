@@ -5,7 +5,6 @@ import { layout, run, theme } from "herdr";
 const tools = [
   ["files", "Files", "mods/files/file.svg"],
   ["changes", "Changes", "mods/changes/changes.svg"],
-  ["insights", "Insights", "mods/t3-tools-tabs/insights.svg"],
 ];
 
 function activeTool(node) {

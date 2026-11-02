@@ -142,8 +142,7 @@
                 { "id": "tools-nav", "type": "block", "size": { "px": 38 }, "content": { "mod": "t3-tools-nav" } },
                 { "id": "tools-body", "type": "stack", "active": "files", "children": [
                   { "id": "files", "type": "block", "content": { "mod": "files" } },
-                  { "id": "changes", "type": "block", "content": { "mod": "changes" } },
-                  { "id": "insights", "type": "block", "content": { "mod": "insights" } }
+                  { "id": "changes", "type": "block", "content": { "mod": "changes" } }
                 ] }
               ]
             }

@@ -2,11 +2,11 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-Add a collapsible right sidebar to [Herdr T3](https://github.com/JinJieBeWater/herdr-t3). Click the sidebar icon at the top right of the tab bar to switch between Files, Changes, and Insights without opening a work tab. When the tab bar fills up, use the arrows to reach neighboring tabs. The icon animates; the panel opens immediately.
+Add a collapsible right sidebar to [Herdr T3](https://github.com/JinJieBeWater/herdr-t3). Click the sidebar icon at the top right of the tab bar to switch between Files and Changes without opening a work tab. When the tab bar fills up, use the arrows to reach neighboring tabs. The icon animates; the panel opens immediately.
 
 ## Installation
 
-1. Install Herdr T3 and [Herdr Insights](https://github.com/GaganSD/coding-agent-toolkit/tree/main/herdr-insights) first. This layout uses the existing Insights mod; its data collector is not bundled. Files and Changes come with Herdr.
+1. Install Herdr T3 first. Files and Changes come with Herdr.
 2. Copy `layouts/t3-tools.*` into `~/.config/herdr-app/layouts/` and both directories under `mods/` into `~/.config/herdr-app/mods/`. If any files already exist, compare them first to preserve local changes.
 3. Merge the layout section from this repository’s `keys.json` into Herdr’s `keys.json`, keeping your existing bindings.
 4. Check both mods and switch to the layout:

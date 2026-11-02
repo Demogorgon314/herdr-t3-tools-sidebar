@@ -2,11 +2,11 @@
 
 [English](README.md) · **简体中文**
 
-为 [Herdr T3](https://github.com/JinJieBeWater/herdr-t3) 增加一个可收起的右侧工具栏。点击标签栏右上角的侧栏图标，在 Files、Changes 和 Insights 之间切换，不占用工作标签。标签过多时，左右箭头可以浏览相邻标签。开关图标有动画，面板本身即时展开。
+为 [Herdr T3](https://github.com/JinJieBeWater/herdr-t3) 增加一个可收起的右侧工具栏。点击标签栏右上角的侧栏图标，在 Files 和 Changes 之间切换，不占用工作标签。标签过多时，左右箭头可以浏览相邻标签。开关图标有动画，面板本身即时展开。
 
 ## 安装
 
-1. 先安装 Herdr T3 和 [Herdr Insights](https://github.com/GaganSD/coding-agent-toolkit/tree/main/herdr-insights)。此仓库复用它们，不包含 Insights 的采集代码；Files 和 Changes 由 Herdr 自带。
+1. 先安装 Herdr T3。Files 和 Changes 由 Herdr 自带。
 2. 从仓库根目录把 `layouts/t3-tools.*` 复制到 `~/.config/herdr-app/layouts/`，把 `mods/` 中的两个目录复制到 `~/.config/herdr-app/mods/`。如有同名文件，请先比较，保留自己的修改。
 3. 将本仓库 `keys.json` 中的布局段合并到 Herdr 的 `keys.json`，不要替换整个文件。
 4. 验证并切换布局：
